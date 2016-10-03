@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Histórico</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<title>Perfil</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+
+		<div class="container">
+				<form class="form-horizontal" action="cadastro-perfil.html" method="post">
+
+						<div class="jumbotron text-center">
+								<h1>Perfil</h1>
+						</div>
+
+						<div class="form-group">
+								<label for="nome">Nome:</label>
+								<input type="text" class="form-control" name="nome" placeholder="Ex: João da Silva">
+						</div>
+
+						<div class="form-group">
+								<label for="data-nascimento">Data Nascimento:</label>
+								<input type="date" class="form-control" name="data-nascimento" value="" placeholder="Ex: 01/02/2016">
+						</div>
+
+						<div class="form-group">
+								<label for="sexo">Sexo:</label>
+								<select name="sexo" class="form-control">
+										<option value="M">Masculino</option>
+										<option value="F">Feminino</option>
+								</select>
+						</div>
+
+						<div class="form-group">
+								<label for="cpf">CPF:</label>
+								<input type="text" class="form-control" name="cpf" placeholder="Ex: 000.000.000.00">
+						</div>
+
+						<div class="form-group">
+							<label for="rg">RG:</label>
+							<input type="text" class="form-control" name="rg" placeholder="Ex: MG-00.000.000">
+						</div>
+
+						<div class="form-group">
+								<label for="email">E-mail:</label>
+								<input type="text" class="form-control" name="email" placeholder="Ex: email@email.com">
+						</div>
+
+						<div class="form-group">
+								<label for="senha">Senha:</label>
+								<input type="password" class="form-control" name="senha">
+						</div>
+
+						<div class="form-group">
+								<label for="confirma-senha">Confirmar Senha:</label>
+								<input type="password" class="form-control" name="confirma-senha">
+						</div>
+
+						<div class="form-group">
+								<label for="telefone">Telefone:</label>
+								<input type="text" class="form-control "name="telefone" placeholder="Ex: (31) 90000-0000">
+						</div>
+
+						<div class="form-group">
+								<label for="telefone-emergencia">Telefone de Emergência:</label>
+								<input type="text" class="form-control "name="telefone-emergencia" placeholder="Ex: (31) 90000-0000">
+						</div>
+
+						<div class="form-group">
+								<input type="submit" class="form-control" name="entrar" value="Cadastrar">
+						</div>
+
+				</form>
+		</div>
+
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
